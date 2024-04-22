@@ -1,5 +1,5 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import axios, { token } from "../../helpers/Api";
+import axios, { token } from "helpers/Api";
 import toast from "react-hot-toast";
 
 const register = createAsyncThunk(

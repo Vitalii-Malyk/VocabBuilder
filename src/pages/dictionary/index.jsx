@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { DictionaryPageContainer } from "./dictionaryPage.styled";
 import { ReactComponent as Plus } from "helpers/icons/plus.svg";
 import { ReactComponent as Switch } from "helpers/icons/switch-horizontal.svg";
@@ -7,15 +7,15 @@ import {
   getAllCategories,
   ownWord,
   statisticsWords,
-} from "redux/data/data-operation";
+} from "@redux/data/data-operation";
 import { useDictionaryHook } from "helpers/hooks/dictionaryHook";
 import { debounce } from "lodash";
 import { PageButtonList } from "components/pageButtonList";
-import { openModalAddWord } from "redux/modals/modal-slice";
+import { openModalAddWord } from "@redux/modals/modal-slice";
 import { NavLink } from "react-router-dom";
 import { Table } from "components/table";
 
-export const DictionaryPage = () => {
+const DictionaryPage = () => {
   const dispatch = useDispatch();
   const [formData, setFormData] = useState({
     filters: "",
@@ -189,3 +189,5 @@ export const DictionaryPage = () => {
     </DictionaryPageContainer>
   );
 };
+
+export default DictionaryPage;

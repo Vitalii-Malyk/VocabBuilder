@@ -1,9 +1,9 @@
 import { HomePageContainer } from "./homePage.styled";
-import { ReactComponent as Logo } from "../../helpers/icons/CraftworkHome.svg";
+import { ReactComponent as Logo } from "helpers/icons/CraftworkHome.svg";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-export const HomePage = () => {
+const HomePage = () => {
   const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
   return (
     <HomePageContainer>
@@ -14,3 +14,5 @@ export const HomePage = () => {
     </HomePageContainer>
   );
 };
+
+export default HomePage;

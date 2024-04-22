@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import search from "../../img/search.svg";
-import toggle from "../../img/toggle.svg";
+import search from "helpers/icons/search.svg";
+import toggle from "helpers/icons/toggle.svg";
 
 export const DictionaryPageContainer = styled.div`
   height: 80vh;

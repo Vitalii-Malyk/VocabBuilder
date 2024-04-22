@@ -1,12 +1,12 @@
 import { useFormik } from "formik";
 import { LogInPageContainer } from "./logInPage.styled";
-import { SigninSchema } from "../../helpers/utils/validationSchemas";
-import { ShowRules } from "../../helpers/utils/showRules";
+import { SigninSchema } from "helpers/utils/validationSchemas";
+import { ShowRules } from "helpers/utils/showRules";
 import { useDispatch } from "react-redux";
-import authOperations from "../../redux/auth/auth-operations";
+import authOperations from "@redux/auth/auth-operations";
 import { NavLink, useNavigate } from "react-router-dom";
 
-export const LogInPage = () => {
+const LogInPage = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const {
@@ -96,3 +96,5 @@ export const LogInPage = () => {
     </LogInPageContainer>
   );
 };
+
+export default LogInPage;

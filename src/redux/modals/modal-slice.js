@@ -42,7 +42,7 @@ const modalSlice = createSlice({
     openModalEdit: (state) => {
       state.isModalOpenEdit = true;
     },
-    closeModalEdil: (state) => {
+    closeModalEdit: (state) => {
       state.isModalOpenEdit = false;
     },
     openModalWellDone: (state) => {
@@ -66,7 +66,7 @@ export const {
   openModalConfirmation,
   closeModalConfirmation,
   openModalEdit,
-  closeModalEdil,
+  closeModalEdit,
   openModalWellDone,
   closeModalWellDone,
 } = modalSlice.actions;

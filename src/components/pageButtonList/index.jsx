@@ -4,7 +4,7 @@ import { ReactComponent as Last } from "helpers/icons/paginationIcons/Last.svg";
 import { ReactComponent as Prev } from "helpers/icons/paginationIcons/Prev.svg";
 import { PageList } from "./pageButtonList.styled";
 
-export const PageButtonList = ({ data, formData, setFormData }) => {
+const PageButtonList = ({ data, formData, setFormData }) => {
   const pages = Array.from(
     { length: data.totalPages },
     (_, index) => index + 1
@@ -84,3 +84,5 @@ export const PageButtonList = ({ data, formData, setFormData }) => {
     </PageList>
   );
 };
+
+export default PageButtonList;

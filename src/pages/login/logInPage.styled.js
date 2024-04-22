@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import vector from "../../img/Vector-min.jpg";
-import mobileImg from "../../img/registration-mobile.png";
-import desctopImg from "../../img/registration-desctop.png";
-import eye from "../../img/eye.svg";
-import eye_off from "../../img/eye-off.svg";
-import correct from "../../img/correct.svg";
-import error from "../../img/error.svg";
+import vector from "helpers/img/Vector-min.jpg";
+import mobileImg from "helpers/img/registration-mobile.png";
+import desktopImg from "helpers/img/registration-desktop.png";
+import eye from "helpers/icons/eye.svg";
+import eye_off from "helpers/icons/eye-off.svg";
+import correct from "helpers/icons/correct.svg";
+import error from "helpers/icons/error.svg";
 
 export const LogInPageContainer = styled.div`
   width: 100%;
@@ -52,7 +52,7 @@ export const LogInPageContainer = styled.div`
       width: 498px;
       height: 475px;
       grid-area: i;
-      background-image: url(${desctopImg});
+      background-image: url(${desktopImg});
     }
   }
 
