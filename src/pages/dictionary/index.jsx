@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { DictionaryPageContainer } from "./dictionaryPage.styled";
-import { ReactComponent as Plus } from "helpers/icons/plus.svg";
-import { ReactComponent as Switch } from "helpers/icons/switch-horizontal.svg";
+import Plus from "helpers/icons/plus.svg?react";
+import Switch from "helpers/icons/switch-horizontal.svg?react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   getAllCategories,
@@ -10,10 +10,10 @@ import {
 } from "@redux/data/data-operation";
 import { useDictionaryHook } from "helpers/hooks/dictionaryHook";
 import { debounce } from "lodash";
-import { PageButtonList } from "components/pageButtonList";
+import PageButtonList from "../../components/pageButtonList";
 import { openModalAddWord } from "@redux/modals/modal-slice";
 import { NavLink } from "react-router-dom";
-import { Table } from "components/table";
+import Table from "../../components/table";
 
 const DictionaryPage = () => {
   const dispatch = useDispatch();

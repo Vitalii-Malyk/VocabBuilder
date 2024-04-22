@@ -1,14 +1,14 @@
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
-import { ReactComponent as Logo } from "../../helpers/icons/Craftwork.svg";
-import { ReactComponent as User } from "../../helpers/icons/gridicons_user-2.svg";
-import { ReactComponent as Burger } from "../../helpers/icons/Nav.svg";
+import Logo from "helpers/icons/Craftwork.svg?react";
+import User from "helpers/icons/gridicons_user-2.svg?react";
+import Burger from "helpers/icons/Nav.svg?react";
 import { MainContainer } from "./layout.styled";
 import { Suspense } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { openModalMobile } from "../../redux/modals/modal-slice";
-import authOperations from "../../redux/auth/auth-operations";
+import { openModalMobile } from "@redux/modals/modal-slice";
+import authOperations from "@redux/auth/auth-operations";
 import Modals from "../modals";
-import { Footer } from "../footer";
+import Footer from "../footer";
 
 const Layout = () => {
   const dispatch = useDispatch();

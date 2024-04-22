@@ -1,11 +1,11 @@
 import { useDispatch } from "react-redux";
-import { ReactComponent as Ukraine } from "helpers/icons/ukraine.svg";
-import { ReactComponent as England } from "helpers/icons/united kingdom.svg";
-import { ReactComponent as Switch } from "helpers/icons/switch-horizontal.svg";
+import Ukraine  from "helpers/icons/ukraine.svg?react";
+import England  from "helpers/icons/united kingdom.svg?react";
+import  Switch  from "helpers/icons/switch-horizontal.svg?react";
 import { Circle } from "rc-progress";
-import { openModalClickWord } from "redux/modals/modal-slice";
+import { openModalClickWord } from "@redux/modals/modal-slice";
 import { TableList } from "./table.styled";
-import { addWord } from "redux/data/data-operation";
+import { addWord } from "@redux/data/data-operation";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const Table = ({ data }) => {

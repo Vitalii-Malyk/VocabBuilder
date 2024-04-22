@@ -1,12 +1,12 @@
 import { Circle } from "rc-progress";
 import { TrainingPageContainer } from "./addWord.styled";
-import { ReactComponent as Ukraine } from "helpers/icons/ukraine.svg";
-import { ReactComponent as England } from "helpers/icons/united kingdom.svg";
-import { ReactComponent as Switch } from "helpers/icons/switch-horizontal.svg";
+import Ukraine from "helpers/icons/ukraine.svg?react";
+import England from "helpers/icons/united kingdom.svg?react";
+import Switch from "helpers/icons/switch-horizontal.svg?react";
 import { useDispatch, useSelector } from "react-redux";
-import { openModalWellDone } from "redux/modals/modal-slice";
+import { openModalWellDone } from "@redux/modals/modal-slice";
 import { useState } from "react";
-import { answersWord } from "redux/data/data-operation";
+import { answersWord } from "@redux/data/data-operation";
 import { useNavigate } from "react-router-dom";
 
 const AddWord = ({ tasks }) => {

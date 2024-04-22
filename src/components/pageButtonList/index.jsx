@@ -1,7 +1,7 @@
-import { ReactComponent as First } from "helpers/icons/paginationIcons/First.svg";
-import { ReactComponent as Next } from "helpers/icons/paginationIcons/Next.svg";
-import { ReactComponent as Last } from "helpers/icons/paginationIcons/Last.svg";
-import { ReactComponent as Prev } from "helpers/icons/paginationIcons/Prev.svg";
+import First from "helpers/icons/paginationIcons/First.svg?react";
+import Next from "helpers/icons/paginationIcons/Next.svg?react";
+import Last from "helpers/icons/paginationIcons/Last.svg?react";
+import Prev from "helpers/icons/paginationIcons/Prev.svg?react";
 import { PageList } from "./pageButtonList.styled";
 
 const PageButtonList = ({ data, formData, setFormData }) => {

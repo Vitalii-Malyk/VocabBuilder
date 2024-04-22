@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { TrainingContainer } from "./training.styled";
 import { useDispatch } from "react-redux";
-import { openModalAddWord } from "redux/modals/modal-slice";
+import { openModalAddWord } from "@redux/modals/modal-slice";
 
 const Training = () => {
   const navigate = useNavigate();

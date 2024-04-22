@@ -3,7 +3,7 @@ import { Suspense, lazy, useEffect, useState } from "react";
 import { Toaster } from "react-hot-toast";
 import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import authOperations from "../redux/auth/auth-operations";
+import authOperations from "@redux/auth/auth-operations";
 
 const Layout = lazy(() => import("./layout"));
 const RegisterPage = lazy(() => import("../pages/registerPage"));

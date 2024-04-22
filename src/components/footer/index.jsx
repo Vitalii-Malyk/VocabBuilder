@@ -9,7 +9,7 @@ const Footer = () => {
     >
       <a
         style={{ textDecoration: "none", color: "inherit", cursor: "pointer" }}
-        href="https://github.com/gritchin-artur"
+        href="https://github.com/Vitalii-Malyk"
       >
         © made by Malyk Vitalii
       </a>

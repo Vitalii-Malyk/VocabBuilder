@@ -1,5 +1,5 @@
 import { HomePageContainer } from "./homePage.styled";
-import { ReactComponent as Logo } from "helpers/icons/CraftworkHome.svg";
+import Logo from "helpers/icons/CraftworkHome.svg?react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
 
