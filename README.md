@@ -1,4 +1,7 @@
-VocabBuilder React App
+
+# <p align="center">VocabBuilder</p>
+
+![registration-desktop](https://github.com/Vitalii-Malyk/VocabBuilder/assets/125901006/2c601c88-c13c-4687-96b5-61a005538613)
 
 Description
 
@@ -16,6 +19,6 @@ This is a three-page site with login and registration options. If the user is re
 - [Formic] (https://formik.org/)
 - [styled-components](https://styled-components.com)
 
-I hope you will be satisfied with our application!
+I hope you will be happy with my app!
 
 © made by Malyk Vitalii
