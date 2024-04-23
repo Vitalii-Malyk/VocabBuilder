@@ -1,8 +1,21 @@
-# React + Vite
+VocabBuilder React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description
 
-Currently, two official plugins are available:
+Vocab Builder is an application for those who want to learn a foreign language on their own. This application will allow you to add words you like, create new ones and correct them. In the application you can also take training on learning words.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a three-page site with login and registration options. If the user is registered, he has the ability to add and remove favorites! In the “Dictionary” section there is a list of your words with the ability to filter them, and you can also correct and delete words from your list. In the “Recomend” section there is a list of words that you can add to your list for study; there is also the ability to filter words, which will allow you to find words that are suitable for you. In the “Training” section, you can test yourself on your knowledge of words from your list; you will be shown the percentage of words you have learned.
+
+## 🛠️ Tech Stack
+
+- [JavaScript] (https://www.javascript.com/)
+- [React] (https://reactjs.org/)
+- [Redux-toolkit] (https://redux-toolkit.js.org)
+- [React_Router] (https://reactrouter.com/)
+- [Axios] (https://axios-http.com/)
+- [Formic] (https://formik.org/)
+- [styled-components](https://styled-components.com)
+
+I hope you will be satisfied with our application!
+
+© made by Malyk Vitalii
