@@ -1,0 +1,1 @@
+import{b as i,j as e,v as a}from"./index-C-80DDQy.js";const u=({children:t,restricted:s=!0})=>{const o=i(r=>r.auth.isLoggedIn)&&s;return e.jsx("div",{children:o?t:e.jsx(a,{to:"/"})})};export{u as default};
